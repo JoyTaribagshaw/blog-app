@@ -1,0 +1,13 @@
+current directory: /home/joytarib/blog-app/vendor/bundle/ruby/3.1.0/gems/json-2.6.3/ext/json
+/usr/bin/ruby3.1 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20231026-27745-k0kd3d.rb extconf.rb
+creating Makefile
+
+current directory: /home/joytarib/blog-app/vendor/bundle/ruby/3.1.0/gems/json-2.6.3/ext/json
+make DESTDIR\= clean
+
+current directory: /home/joytarib/blog-app/vendor/bundle/ruby/3.1.0/gems/json-2.6.3/ext/json
+make DESTDIR\=
+make: Nothing to be done for 'all'.
+
+current directory: /home/joytarib/blog-app/vendor/bundle/ruby/3.1.0/gems/json-2.6.3/ext/json
+make DESTDIR\= install
