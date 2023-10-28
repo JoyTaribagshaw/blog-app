@@ -2,6 +2,11 @@ source 'https://rubygems.org'
 
 gem 'rubocop', '>= 1.0', '< 2.0'
 
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'factory_bot_rails'
+end
+
 ruby '3.1.2'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
