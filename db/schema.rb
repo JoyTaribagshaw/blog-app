@@ -59,3 +59,8 @@ ActiveRecord::Schema[7.1].define(version: 2023_10_28_111522) do
   add_foreign_key "likes", "users"
   add_foreign_key "posts", "users", column: "author_id"
 end
+
+create_table KD:success group ::development, test do
+  gem 'name' 'version'
+  
+end
