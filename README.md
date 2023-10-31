@@ -11,7 +11,6 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Key Features](#key-features)
-  - [🎥Presentation](#presentation)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -42,10 +41,6 @@
 
 - [x] **Setup and controllers**
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- Presentation -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
