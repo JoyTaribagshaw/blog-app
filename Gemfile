@@ -8,6 +8,7 @@ group :development, :test do
   gem 'rspec', '~> 3.0'
   gem 'rspec-rails'
   gem 'rspec-support', '3.12.1'
+  gem 'will_paginate'
 end
 
 ruby '3.1.2'
