@@ -5,8 +5,8 @@ gem 'rubocop', '>= 1.0', '< 2.0'
 group :development, :test do
   gem 'factory_bot_rails'
   gem 'rails-controller-testing'
-  gem 'rspec-rails'
   gem 'rspec', '~> 3.0'
+  gem 'rspec-rails'
   gem 'rspec-support', '3.12.1'
 end
 
