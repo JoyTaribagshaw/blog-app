@@ -15,7 +15,7 @@ class PostsController < ApplicationController
   # Saves a new post to the database
   def create
     @post = Post.new(post_params)
-    @post.author_id = current_user.id # Assuming you have a current_user method
+    @post.author_id = current_user.id
 
     if @post.save
       redirect_to user_post_path(id: @post.id, user_id: current_user.id)
