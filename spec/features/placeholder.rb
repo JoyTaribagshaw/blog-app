@@ -1,6 +1,6 @@
 module TestPlaceholders
-    def placeholder
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt \
+  def placeholder
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt \
         labore et dolore magna aliqua. Ut porttitor leo a diam sollicitudin tempor id eu nisl. \
         Facilisis mauris sit amet massa vitae. Nulla facilisi etiam dignissim diam quis enim. \
         Pulvinar etiam non quam lacus suspendisse faucibus. Aliquet nec ullamcorper sit amet risus \
@@ -24,6 +24,5 @@ module TestPlaceholders
         pellentesque massa placerat duis ultricies lacus sed. Tortor condimentum lacinia quis vel eros \
         donec ac odio. Ac turpis egestas integer eget aliquet nibh. Risus nullam eget felis eget nunc \
         lobortis mattis aliquam. Facilisis gravida neque convallis a cras semper auctor neque."
-    end
   end
-  
+end
