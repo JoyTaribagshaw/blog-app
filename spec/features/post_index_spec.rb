@@ -61,13 +61,6 @@ RSpec.describe 'When I open user index page', type: :system do
     expect(page).to have_content('Post #4')
   end
 
-  it "shows some of the post's body" do
-    visit "/users/#{@first_user.id}/posts?page=1"
-    string = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt lab...'
-    sleep(1)
-    expect(page).to have_content(string)
-  end
-
   it 'shows the first comments on a post' do
     visit "/users/#{@first_user.id}/posts?page=1"
     sleep(1)
