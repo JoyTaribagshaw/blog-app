@@ -82,6 +82,14 @@ h3 {
   flex: 1;
 }
 
+a {
+  display: flex;
+  justify-content: center;
+  color: blue;
+  font-size: large;
+  margin: -10px;
+}
+
 .pagination {
   margin: 0 auto;
   color: rgb(240, 240, 240);
@@ -116,21 +124,16 @@ input {
   border-radius: 10px;
 }
 
-.field, .actions {
+.field,
+.actions {
   display: flex;
   justify-content: center;
   margin: 20px;
 }
 
-a {
-  display: flex;
-  justify-content: center;
-  color: blue;
-  font-size: large;
-  margin: -10px;
-}
-
-.log_in, .sign_up, .welcome {
+.log_in,
+.sign_up,
+.welcome {
   display: flex;
   justify-content: center;
   color: black;
