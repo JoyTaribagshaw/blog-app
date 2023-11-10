@@ -102,3 +102,36 @@ h3 {
 .comment {
   font-style: italic;
 }
+
+/* LOGIN */
+
+form#new_user.new_user {
+  margin: auto;
+  width: 50%;
+}
+
+input {
+  width: 30rem;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.field, .actions {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  color: blue;
+  font-size: large;
+  margin: -10px;
+}
+
+.log_in, .sign_up, .welcome {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
