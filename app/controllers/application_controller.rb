@@ -1,6 +1,11 @@
 class ApplicationController < ActionController::Base
-  # Create current_user method to temporary return the first user from the database
-  def current_user
-    @first_user = User.first
+  protect_from_forgery with: :null_session
+  before_action :authenticate_user!
+  before_action :configure_permitted_parameters, if: :devise_controller?
+
+  protected
+
+  def configure_permitted_parameters
+    devise_parameter_sanitizer.permit(:sign_up, keys: [:name])
   end
 end
