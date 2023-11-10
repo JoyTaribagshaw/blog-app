@@ -1,9 +1,14 @@
-<div class="post" >
+<div class="post">
   <h3><%= @post.title %> by <%= @post.author.name %></h3>
   <p class="counter">
     Comments: <%= @post.comments_counter.to_i %>, Likes: <%= @post.likes_counter.to_i %>
   </p>
   <p><%= @post.text %></p>
+
+  <!-- Delete Button -->
+  <% if can? :destroy, @post %>
+    <%= link_to 'Delete', @post, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger' %>
+  <% end %>
 </div>
 
 <% flash.each do |name, msg| -%>
@@ -14,6 +19,10 @@
   <% @post.comments.each do |comment| %>
     <li class="comment">
       <p><%= comment.user.name %>: <%= comment.text %></p>
+      <!-- Delete Button for Comments -->
+      <% if can? :destroy, comment %>
+        <%= link_to 'Delete Comment', comment, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger' %>
+      <% end %>
     </li>
   <% end %>
 </ul>
