@@ -83,6 +83,12 @@ rails server
 - Twitter: [Joy](https://twitter.com/JoyTariBagshaw)
 - LinkedIn: [Joy](https://linkedin.com/in/joytaribagshaw)
 
+👤 **Ikonde Nekemiah Arnold**
+
+- GitHub: [@githubhandle](https://github.com/arnoldnekemiah/)
+- Twitter: [@twitterhandle](https://twitter.com/arnoldikonde)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/arnoldnekemiah/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
